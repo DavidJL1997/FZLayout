@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper{
+            display:grid;
+            grid-gap:20px;
+            background-color: lightgray;
+
+        }
+        .mainMenu{
+            display:grid;
+            grid-gap:20px;
+            padding:0;
+            list-style:none;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .branding {
+            grid-column: 1;
+
+        }
+
+        .mainContent{
+            grid-auto-columns: max-content;
+            grid-template-columns: min-content;
+        }
+        .sidebar{
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="box branding"></div>
+    <div class="box mainMenu">
+        <menu>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="FLayout.html">F layout</a></li>
+            <li><a href="#">About</a></li>
+
+        </menu>
+    </div>
+    <div class="box mainContent">
+        <h1>Heading 1</h1>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae leo ullamcorper, porta felis a,
+        consectetur felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Donec velit lacus, rhoncus ac imperdiet nec, feugiat in eros. Etiam eget tempus metus, vitae gravida orci.
+        Mauris odio magna, ultricies eu faucibus blandit, eleifend id enim. Nam tincidunt dolor eu faucibus aliquam.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla
+        efficitur erat eu lacus rhoncus, fermentum elementum ipsum viverra. Sed ut fringilla augue. Duis
+        sollicitudin lacus erat, vitae suscipit tellus eleifend ut.
+
+        Pellentesque dolor mauris, molestie ac magna nec, sollicitudin tempus odio. Ut interdum felis nec
+        sollicitudin placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+        egestas. Sed tempus nisl lectus, id luctus leo condimentum quis. Integer accumsan mattis libero sit amet
+        sagittis. Donec vitae vehicula ante, ac ultrices elit. Praesent auctor dui eget lacus dignissim aliquam. Ut
+        at lectus vitae lectus placerat interdum eget nec magna.
+
+        <h2>Heading 2</h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae leo ullamcorper, porta felis a,
+        consectetur felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Donec velit lacus, rhoncus ac imperdiet nec, feugiat in eros. Etiam eget tempus metus, vitae gravida orci.
+        Mauris odio magna, ultricies eu faucibus blandit, eleifend id enim. Nam tincidunt dolor eu faucibus aliquam.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla
+        efficitur erat eu lacus rhoncus, fermentum elementum ipsum viverra. Sed ut fringilla augue. Duis
+        sollicitudin lacus erat, vitae suscipit tellus eleifend ut.
+
+        Pellentesque dolor mauris, molestie ac magna nec, sollicitudin tempus odio. Ut interdum felis nec
+        sollicitudin placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+        egestas. Sed tempus nisl lectus, id luctus leo condimentum quis. Integer accumsan mattis libero sit amet
+        sagittis. Donec vitae vehicula ante, ac ultrices elit. Praesent auctor dui eget lacus dignissim aliquam. Ut
+        at lectus vitae lectus placerat interdum eget nec magna.
+
+    </div>
+    <div class="box sidebar">S
+        <img src="assets/images/earth.webp" height="" alt="An Example Picture">
+
+    </div>
+    <div class="box footer"><footer>&copy; David Jean Louis2021</footer></div>
+</div>
+
+<script src="js/bundle.js"></script>
+</body>
+</html>
